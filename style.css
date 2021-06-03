@@ -1,3 +1,57 @@
-.body {
+body {
   background-color: whitesmoke;
 }
+
+.container {
+  width: 500px;
+  background-color: skyblue;
+  height: 500px;
+  margin: 50px auto;
+display: grid;
+grid-template-columns: 120px;
+grid-template-rows: 60% 30%;
+justify-content: center;
+vertical-align: bottom;
+padding: 45px;
+}
+
+.top {
+  grid-template-columns: 50%;
+  grid-template-rows: 30% 30% 30%;
+ background-color: black;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.pole {
+  background-color: black;
+  height: 100%;
+  width: 15%;
+}
+
+.light {
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  margin: 5px auto;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
